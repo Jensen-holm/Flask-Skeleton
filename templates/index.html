@@ -1,20 +1,23 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
+<link rel="stylesheet" href="styles.css">
+
 <head>
-  <title>My first styled page</title>
+  <title>Flask-App</title>
 </head>
 
 <body>
+  <!-- Main content -->
+  <h1>Bare Bones Flask-App</h1>
 
-<!-- Main content -->
-<h1>Bare Bones Flask-App</h1>
+  <p>There should be more here, but I don't know what yet.</p>
 
-<p>There should be more here, but I don't know
-what yet.
+  <div class="centered">
+    <button type="button centered">Click Me!</button>
+  </div>
 
-<!-- Sign and date the page, it's only polite! -->
-<address>{{ date  }}<br>
-  by myself.</address>
-
+  <!-- Sign and date the page, it's only polite! -->
+  <address>Todays Date -> {{ date }}<br></address>
 </body>
+
 </html>
