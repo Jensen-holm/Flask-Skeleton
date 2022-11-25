@@ -12,6 +12,14 @@
     cursor: pointer;
 }
 
+html {
+    background-color: black;
+}
+
+p {
+    color: white;
+}
+
 .title {
     position: absolute;
     top: 30%;
