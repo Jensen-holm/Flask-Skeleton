@@ -9,11 +9,17 @@ app = Flask(
 
 
 @app.route("/")
-@app.route("/index")
 def index() -> str:
     return render_template(
         "index.html",
         date=datetime.now()
+    )
+
+
+@app.route("/home")
+def home() -> str:
+    return render_template(
+        "home.html",
     )
 
 

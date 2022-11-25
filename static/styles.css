@@ -1,11 +1,6 @@
-div {
-    margin: 0 auto;
-    width: 50%;
-}
-
 /*Button class*/
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #395963;
     border: none;
     color: white;
     padding: 15px 32px;
@@ -17,11 +12,18 @@ div {
     cursor: pointer;
 }
 
+.title {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: darkcyan;
+}
 
-/*Centered button class*/
+
 .centered {
     position: absolute;
-    top: 50%;
     left: 50%;
+    top: 50%;
     transform: translate(-50%, -50%);
 }
