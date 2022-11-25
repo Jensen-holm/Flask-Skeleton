@@ -1,7 +1,6 @@
 from flask import Flask, render_template
 from datetime import datetime
 
-
 app = Flask(
     __name__,
     template_folder="templates",
@@ -11,7 +10,7 @@ app = Flask(
 
 @app.route("/")
 @app.route("/index")
-def main() -> str:
+def index() -> str:
     return render_template(
         "index.html",
         date=datetime.now()

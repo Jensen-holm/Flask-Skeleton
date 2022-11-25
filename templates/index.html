@@ -1,22 +1,22 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-<link rel="stylesheet" href="styles.css">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>Flask-App-Skeleton</title>
+    <link type="text/css" rel="stylesheet" href="{{ url_for("static", filename="styles.css") }}"/>
+    <title>Flask-App-Skeleton</title>
 </head>
 
 <body>
-  <!-- Main content -->
-  <h1 align="center">Bare Bones Flask-App</h1>
+<!-- Main content -->
+<h1 class="centered">Bare Bones Flask-App</h1>
 
-  <p align="center">There should be more here, but I don't know what yet.</p>
+<p class="centered">There should be more here, but I don't know what yet.</p>
 
-  <div class="centered">
-    <button align="center" class="button">Click Me!</button>
-  </div>
+<div class="centered">
+    <button class="button">Click Me!</button>
+</div>
 
-  <address align="center">Todays Date = {{ date }}<br></address>
+<address>{{ date }}<br></address>
 </body>
 
 </html>
